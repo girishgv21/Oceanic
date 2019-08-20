@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  letter-spacing: 0.3px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  cursor: default;
+}
+img {
+  width: 40%;
+  filter: drop-shadow(2px 5px 5px #afafaf);
+}
+.container {
+  padding: 20px 120px;
+}
+li {
+  list-style: none;
+  margin-top: 15px;
+}
+.one h2 {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.sub1,
+.sub2 {
+  display: inline-table;
+  padding: 10px 90px;
+  background: white;
+  filter: drop-shadow(1px 1px 5px #aaaaaa);
+  height: 250px;
+}
+.sub2 {
+  float: right;
+}
+.two ul {
+  margin-left: -40px;
+}
+.two h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* 
+.sub2 {
+  float: right;
+} */
+.two a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.two i {
+  font-size: 20px;
+  font-weight: 700;
+}
+.two a:hover {
+  color: rgb(231, 55, 113);
+}
+.sub2 a:hover {
+  color: rgb(137, 55, 231);
+}
+#o {
+  font-weight: 900;
+  font-size: 45px;
+}
+#a {
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+#logo {
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-right: 25px;
+}
+nav {
+  margin-top: -20px;
+  padding: 7px 10px;
+  background: white;
+  filter: drop-shadow(1px 1px 5px #aaaaaa);
+  width: 100%;
+  position: relative;
+  float: right;
+  margin-bottom: 15px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: rgb(46, 46, 46);
+  margin: 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.active {
+  font-weight: 600;
+}
+.footer {
+  display: block;
+  background: white;
+  filter: drop-shadow(1px 1px 5px #aaaaaa);
+  padding: 10px;
+}
+a:hover {
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+h3 {
+  font-weight: 600;
+}
+#oa {
+  font-weight: 800;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover {
+  color: rgb(33, 145, 61);
+}
+.footer #mail:hover {
+  color: rgb(197, 63, 63);
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+  nav {
+    display: block;
+    text-align: center;
+  }
+  nav ul li a {
+    color: rgb(46, 46, 46);
+    margin-top: 15px;
+    text-decoration: none;
+    display: block;
+  }
+  img {
+    width: 90%;
+    filter: drop-shadow(1px 1px 15px #8a8a8a);
+  }
+
+  .container {
+    padding: 20px 60px;
+  }
+  .sub1,
+  .sub2 {
+    text-align: center;
+    padding: 10px 0px;
+    display: block;
+  }
+  .sub2 {
+    float: none;
+    margin-top: 15%;
+  }
+}
