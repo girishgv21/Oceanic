@@ -34,7 +34,7 @@ li {
   padding: 10px 90px;
   background: white;
   filter: drop-shadow(1px 1px 5px #aaaaaa);
-  height: 250px;
+  min-height: 250px;
 }
 .sub2 {
   float: right;
